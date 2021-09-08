@@ -6,7 +6,15 @@ namespace HomeWork2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Sveiki, kā Jūs godāt?");
+            string userName = Console.ReadLine();
+            Console.WriteLine("Labdien, augsti godātais, " + userName);
+
+
+            // ------------------------------------------------------------;
+
+
+
         }
     }
 }
