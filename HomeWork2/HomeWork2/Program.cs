@@ -46,6 +46,15 @@ namespace HomeWork2
 
             // ------------------------------------------------------------;
 
+            Console.WriteLine("Ievadiet divus skaitļus. Noteiksim lielāko skaitli :)");
+
+            string MaxNumber5 = Console.ReadLine();
+            string MaxNumber6 = Console.ReadLine();
+            int MaxResult = Math.Max(MaxNumber5, MaxNumber6);
+
+            Console.WriteLine("Lielāks skaitlis ir " + MaxResult);
+
+            //--------------------------------------------------------------;
 
 
 
